@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		463DBEFBF42606F5FD4E8383 /* libPods-TestRNAppTwo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 927343CB97E3CE8773E87C2E /* libPods-TestRNAppTwo.a */; };
+		978896CA1F6266E500AA720E /* RNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 978896C91F6266E500AA720E /* RNViewController.m */; };
+		9789FD081F62468D00F81721 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9789FD071F62468D00F81721 /* main.m */; };
+		9789FD0B1F62468D00F81721 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9789FD0A1F62468D00F81721 /* AppDelegate.m */; };
+		9789FD0E1F62468D00F81721 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9789FD0D1F62468D00F81721 /* ViewController.m */; };
+		9789FD111F62468D00F81721 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9789FD0F1F62468D00F81721 /* Main.storyboard */; };
+		9789FD131F62468D00F81721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9789FD121F62468D00F81721 /* Assets.xcassets */; };
+		9789FD161F62468D00F81721 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9789FD141F62468D00F81721 /* LaunchScreen.storyboard */; };
+		9789FD211F62468D00F81721 /* TestRNAppTwoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9789FD201F62468D00F81721 /* TestRNAppTwoTests.m */; };
+		9789FD2C1F62468D00F81721 /* TestRNAppTwoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9789FD2B1F62468D00F81721 /* TestRNAppTwoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9789FD1D1F62468D00F81721 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9789FCFB1F62468D00F81721 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9789FD021F62468D00F81721;
+			remoteInfo = TestRNAppTwo;
+		};
+		9789FD281F62468D00F81721 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9789FCFB1F62468D00F81721 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9789FD021F62468D00F81721;
+			remoteInfo = TestRNAppTwo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4DD7F84E9D20457877EA07AF /* Pods-TestRNAppTwo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRNAppTwo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestRNAppTwo/Pods-TestRNAppTwo.debug.xcconfig"; sourceTree = "<group>"; };
+		88ED4B6E569C8D7FBA5511B3 /* libPods-TestRNAppTwoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestRNAppTwoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		927343CB97E3CE8773E87C2E /* libPods-TestRNAppTwo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestRNAppTwo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		978896C81F6266E500AA720E /* RNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNViewController.h; sourceTree = "<group>"; };
+		978896C91F6266E500AA720E /* RNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNViewController.m; sourceTree = "<group>"; };
+		9789FD031F62468D00F81721 /* TestRNAppTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestRNAppTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9789FD071F62468D00F81721 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9789FD091F62468D00F81721 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9789FD0A1F62468D00F81721 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9789FD0C1F62468D00F81721 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9789FD0D1F62468D00F81721 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9789FD101F62468D00F81721 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9789FD121F62468D00F81721 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9789FD151F62468D00F81721 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9789FD171F62468D00F81721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9789FD1C1F62468D00F81721 /* TestRNAppTwoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestRNAppTwoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9789FD201F62468D00F81721 /* TestRNAppTwoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestRNAppTwoTests.m; sourceTree = "<group>"; };
+		9789FD221F62468D00F81721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9789FD271F62468D00F81721 /* TestRNAppTwoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestRNAppTwoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9789FD2B1F62468D00F81721 /* TestRNAppTwoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestRNAppTwoUITests.m; sourceTree = "<group>"; };
+		9789FD2D1F62468D00F81721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C033C846C972152F6E1C2D0D /* libPods-TestRNAppTwoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestRNAppTwoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D23D5B68BA3B77D4682607F3 /* Pods-TestRNAppTwo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRNAppTwo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestRNAppTwo/Pods-TestRNAppTwo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9789FD001F62468D00F81721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463DBEFBF42606F5FD4E8383 /* libPods-TestRNAppTwo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9789FD191F62468D00F81721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9789FD241F62468D00F81721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90AB8D602ADCEBF0F44DF7F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				927343CB97E3CE8773E87C2E /* libPods-TestRNAppTwo.a */,
+				88ED4B6E569C8D7FBA5511B3 /* libPods-TestRNAppTwoTests.a */,
+				C033C846C972152F6E1C2D0D /* libPods-TestRNAppTwoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9789FCFA1F62468D00F81721 = {
+			isa = PBXGroup;
+			children = (
+				9789FD051F62468D00F81721 /* TestRNAppTwo */,
+				9789FD1F1F62468D00F81721 /* TestRNAppTwoTests */,
+				9789FD2A1F62468D00F81721 /* TestRNAppTwoUITests */,
+				9789FD041F62468D00F81721 /* Products */,
+				BA7CDC6B653FB0DAFBB276E3 /* Pods */,
+				90AB8D602ADCEBF0F44DF7F7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9789FD041F62468D00F81721 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9789FD031F62468D00F81721 /* TestRNAppTwo.app */,
+				9789FD1C1F62468D00F81721 /* TestRNAppTwoTests.xctest */,
+				9789FD271F62468D00F81721 /* TestRNAppTwoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9789FD051F62468D00F81721 /* TestRNAppTwo */ = {
+			isa = PBXGroup;
+			children = (
+				9789FD091F62468D00F81721 /* AppDelegate.h */,
+				9789FD0A1F62468D00F81721 /* AppDelegate.m */,
+				9789FD0C1F62468D00F81721 /* ViewController.h */,
+				9789FD0D1F62468D00F81721 /* ViewController.m */,
+				978896C81F6266E500AA720E /* RNViewController.h */,
+				978896C91F6266E500AA720E /* RNViewController.m */,
+				9789FD0F1F62468D00F81721 /* Main.storyboard */,
+				9789FD121F62468D00F81721 /* Assets.xcassets */,
+				9789FD141F62468D00F81721 /* LaunchScreen.storyboard */,
+				9789FD171F62468D00F81721 /* Info.plist */,
+				9789FD061F62468D00F81721 /* Supporting Files */,
+			);
+			path = TestRNAppTwo;
+			sourceTree = "<group>";
+		};
+		9789FD061F62468D00F81721 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9789FD071F62468D00F81721 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9789FD1F1F62468D00F81721 /* TestRNAppTwoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9789FD201F62468D00F81721 /* TestRNAppTwoTests.m */,
+				9789FD221F62468D00F81721 /* Info.plist */,
+			);
+			path = TestRNAppTwoTests;
+			sourceTree = "<group>";
+		};
+		9789FD2A1F62468D00F81721 /* TestRNAppTwoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9789FD2B1F62468D00F81721 /* TestRNAppTwoUITests.m */,
+				9789FD2D1F62468D00F81721 /* Info.plist */,
+			);
+			path = TestRNAppTwoUITests;
+			sourceTree = "<group>";
+		};
+		BA7CDC6B653FB0DAFBB276E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7F84E9D20457877EA07AF /* Pods-TestRNAppTwo.debug.xcconfig */,
+				D23D5B68BA3B77D4682607F3 /* Pods-TestRNAppTwo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9789FD021F62468D00F81721 /* TestRNAppTwo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9789FD301F62468D00F81721 /* Build configuration list for PBXNativeTarget "TestRNAppTwo" */;
+			buildPhases = (
+				59F7A27E95E22ED7A71D68A4 /* [CP] Check Pods Manifest.lock */,
+				9789FCFF1F62468D00F81721 /* Sources */,
+				9789FD001F62468D00F81721 /* Frameworks */,
+				9789FD011F62468D00F81721 /* Resources */,
+				2F56BBC43972E5D3E95147F3 /* [CP] Embed Pods Frameworks */,
+				600B2F12E2EA37ABDBB7E7CC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestRNAppTwo;
+			productName = TestRNAppTwo;
+			productReference = 9789FD031F62468D00F81721 /* TestRNAppTwo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9789FD1B1F62468D00F81721 /* TestRNAppTwoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9789FD331F62468D00F81721 /* Build configuration list for PBXNativeTarget "TestRNAppTwoTests" */;
+			buildPhases = (
+				9789FD181F62468D00F81721 /* Sources */,
+				9789FD191F62468D00F81721 /* Frameworks */,
+				9789FD1A1F62468D00F81721 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9789FD1E1F62468D00F81721 /* PBXTargetDependency */,
+			);
+			name = TestRNAppTwoTests;
+			productName = TestRNAppTwoTests;
+			productReference = 9789FD1C1F62468D00F81721 /* TestRNAppTwoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9789FD261F62468D00F81721 /* TestRNAppTwoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9789FD361F62468D00F81721 /* Build configuration list for PBXNativeTarget "TestRNAppTwoUITests" */;
+			buildPhases = (
+				9789FD231F62468D00F81721 /* Sources */,
+				9789FD241F62468D00F81721 /* Frameworks */,
+				9789FD251F62468D00F81721 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9789FD291F62468D00F81721 /* PBXTargetDependency */,
+			);
+			name = TestRNAppTwoUITests;
+			productName = TestRNAppTwoUITests;
+			productReference = 9789FD271F62468D00F81721 /* TestRNAppTwoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9789FCFB1F62468D00F81721 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = weiman;
+				TargetAttributes = {
+					9789FD021F62468D00F81721 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9ECXZ932UT;
+						ProvisioningStyle = Automatic;
+					};
+					9789FD1B1F62468D00F81721 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9ECXZ932UT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9789FD021F62468D00F81721;
+					};
+					9789FD261F62468D00F81721 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9ECXZ932UT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9789FD021F62468D00F81721;
+					};
+				};
+			};
+			buildConfigurationList = 9789FCFE1F62468D00F81721 /* Build configuration list for PBXProject "TestRNAppTwo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9789FCFA1F62468D00F81721;
+			productRefGroup = 9789FD041F62468D00F81721 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9789FD021F62468D00F81721 /* TestRNAppTwo */,
+				9789FD1B1F62468D00F81721 /* TestRNAppTwoTests */,
+				9789FD261F62468D00F81721 /* TestRNAppTwoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9789FD011F62468D00F81721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9789FD161F62468D00F81721 /* LaunchScreen.storyboard in Resources */,
+				9789FD131F62468D00F81721 /* Assets.xcassets in Resources */,
+				9789FD111F62468D00F81721 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9789FD1A1F62468D00F81721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9789FD251F62468D00F81721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F56BBC43972E5D3E95147F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestRNAppTwo/Pods-TestRNAppTwo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59F7A27E95E22ED7A71D68A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		600B2F12E2EA37ABDBB7E7CC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestRNAppTwo/Pods-TestRNAppTwo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9789FCFF1F62468D00F81721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				978896CA1F6266E500AA720E /* RNViewController.m in Sources */,
+				9789FD0E1F62468D00F81721 /* ViewController.m in Sources */,
+				9789FD0B1F62468D00F81721 /* AppDelegate.m in Sources */,
+				9789FD081F62468D00F81721 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9789FD181F62468D00F81721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9789FD211F62468D00F81721 /* TestRNAppTwoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9789FD231F62468D00F81721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9789FD2C1F62468D00F81721 /* TestRNAppTwoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9789FD1E1F62468D00F81721 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9789FD021F62468D00F81721 /* TestRNAppTwo */;
+			targetProxy = 9789FD1D1F62468D00F81721 /* PBXContainerItemProxy */;
+		};
+		9789FD291F62468D00F81721 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9789FD021F62468D00F81721 /* TestRNAppTwo */;
+			targetProxy = 9789FD281F62468D00F81721 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9789FD0F1F62468D00F81721 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9789FD101F62468D00F81721 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9789FD141F62468D00F81721 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9789FD151F62468D00F81721 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9789FD2E1F62468D00F81721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9789FD2F1F62468D00F81721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9789FD311F62468D00F81721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DD7F84E9D20457877EA07AF /* Pods-TestRNAppTwo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9ECXZ932UT;
+				INFOPLIST_FILE = TestRNAppTwo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/React\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.juzi.TestRNAppTwo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9789FD321F62468D00F81721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D23D5B68BA3B77D4682607F3 /* Pods-TestRNAppTwo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9ECXZ932UT;
+				INFOPLIST_FILE = TestRNAppTwo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/React\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.juzi.TestRNAppTwo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9789FD341F62468D00F81721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9ECXZ932UT;
+				INFOPLIST_FILE = TestRNAppTwoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juzi.TestRNAppTwoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestRNAppTwo.app/TestRNAppTwo";
+			};
+			name = Debug;
+		};
+		9789FD351F62468D00F81721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9ECXZ932UT;
+				INFOPLIST_FILE = TestRNAppTwoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juzi.TestRNAppTwoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestRNAppTwo.app/TestRNAppTwo";
+			};
+			name = Release;
+		};
+		9789FD371F62468D00F81721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9ECXZ932UT;
+				INFOPLIST_FILE = TestRNAppTwoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juzi.TestRNAppTwoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestRNAppTwo;
+			};
+			name = Debug;
+		};
+		9789FD381F62468D00F81721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9ECXZ932UT;
+				INFOPLIST_FILE = TestRNAppTwoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juzi.TestRNAppTwoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestRNAppTwo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9789FCFE1F62468D00F81721 /* Build configuration list for PBXProject "TestRNAppTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9789FD2E1F62468D00F81721 /* Debug */,
+				9789FD2F1F62468D00F81721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9789FD301F62468D00F81721 /* Build configuration list for PBXNativeTarget "TestRNAppTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9789FD311F62468D00F81721 /* Debug */,
+				9789FD321F62468D00F81721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9789FD331F62468D00F81721 /* Build configuration list for PBXNativeTarget "TestRNAppTwoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9789FD341F62468D00F81721 /* Debug */,
+				9789FD351F62468D00F81721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9789FD361F62468D00F81721 /* Build configuration list for PBXNativeTarget "TestRNAppTwoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9789FD371F62468D00F81721 /* Debug */,
+				9789FD381F62468D00F81721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9789FCFB1F62468D00F81721 /* Project object */;
+}
